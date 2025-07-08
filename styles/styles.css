@@ -447,6 +447,47 @@ footer{
     background-color: #070211;
     color: white;
 }
-hr{
-    color: rgb(92, 92, 92);
+hr {
+
+    width: 1320px;
+
+    border: none;
+    height: 1px;
+    background-color: #2b2b2b; /* change to any color */
+}
+
+.footer-part-one{
+    width: 1320px;
+    
+    margin: 0px auto 120px auto;
+    margin-bottom: 50px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+
+}
+.hr-one{
+    margin-bottom: 48px;
+}
+.footer-social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.hr-two{
+    margin-bottom: 50px;
+}
+.footer-part-two{
+    margin: 0px auto 0px auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
 }
