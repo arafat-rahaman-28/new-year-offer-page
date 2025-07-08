@@ -286,11 +286,11 @@ body{
 
 /* Holiday Sales Section */
 .holiday-sale-section{
-    margin-bottom: 140px;
     width: 1320px;
     height: 786px;
     margin: 0px auto 120px auto;
     text-align: center;
+    margin-bottom: 140px;
 }
 .text-section{
     text-align: center;
@@ -351,6 +351,8 @@ body{
 .portfolio-section{
     width: 1320px;
     margin: 0px auto 120px auto;
+    margin-top: 280px;
+    margin-bottom: 140px;
 }
 .portfolio-text h5{
     font-family: Inter;
@@ -372,4 +374,79 @@ body{
     font-weight: 500;
     font-size: 20px;
     color: #070211;
+    width: 950px;
+    margin-bottom: 48px;
+}
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* Newsletter Subscription Section */
+.newsletter-section{
+    background: linear-gradient(to bottom, #ffe4e4 10%, #ffeded
+
+ 100%);
+    width: 1320px;
+    margin: 0px auto 120px auto;
+    border-radius: 16px;
+    
+}
+.newsletter-content{
+    text-align: center;
+    width: 896px;
+    margin: 0px auto;
+    padding: 80px 212px;
+}
+
+.newsletter-text-section h1{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+.newsletter-text-section p{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 48px;
+    color: #070211;
+}
+
+.subscription-section input{
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    width: 448px;
+    font-family: Inter;
+    font-size: 18px;
+}
+.subscription-section button{
+    width: 210px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 24px 56px;
+    border-radius: 0px 40px 40px 0px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    margin-left: -100px;
+}
+
+.subscription-section input:focus{
+    outline: none;
+}
+
+footer{
+    background-color: #070211;
+    color: white;
+}
+hr{
+    color: rgb(92, 92, 92);
 }
