@@ -1,0 +1,71 @@
+body{
+    padding-top: 50px;
+}
+
+/* Shared Styles */
+.maximum-width{
+    max-width: 1320px;
+}
+
+/* Banner Styles */
+.banner-section{
+    background-image: url(../images/Banner\ Image.png);
+    filter: brightness(40%);
+    height: 600px;
+    margin: 0px auto;
+    font-family: Merriweather;
+    color: white;
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-title{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.title{
+    font-size: 72px;
+}
+
+.title-one{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.title-two{
+    margin-top: 0px;
+}
+
+/* Offer Section Styles */
+.offer-section{
+    font-family: Inter;
+    margin: 0px auto;
+    text-align: center;
+}
+.discoutn-title{
+    color: #FF0000;
+    font-size: 88px;
+    margin-bottom: 48px;
+    font-weight: bold;
+}
+.discoutn-sub-title{
+    color: #FF0000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.category-text{
+    color: #070211;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.offer-section img{
+    width: 802.9px;
+    height: 500px;
+}
