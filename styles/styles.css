@@ -177,6 +177,7 @@ body{
 
 /* Date and Location Sections Styles */
 .date-location-section{
+    margin-bottom: 140px;
     height: 482px;
     background: linear-gradient(to bottom, #ffc0c0 10%, #ffffff 100%);
     margin: 0px auto 120px auto;
@@ -221,6 +222,7 @@ body{
     margin: 0px auto 120px auto;
     width: 1320px;
     height: 463px;
+    margin-bottom: 140px;
 
     display: flex;
     justify-content: space-between;
@@ -280,4 +282,94 @@ body{
     height: 140px;
     width: 140px;
     margin-top: 0px;
+}
+
+/* Holiday Sales Section */
+.holiday-sale-section{
+    margin-bottom: 140px;
+    width: 1320px;
+    height: 786px;
+    margin: 0px auto 120px auto;
+    text-align: center;
+}
+.text-section{
+    text-align: center;
+    margin-bottom: -50px;
+}
+.text-section h5{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.text-section h1{
+    margin-top: 16px;
+    margin-bottom: 28px;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 72px;
+}
+.text-section p{
+    margin-top: 28px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    color: #070211;
+    text-align: center;
+}
+.holiday{
+    color: #FF0000;
+}
+.bottom-images{
+    height: 229px;
+    width: 1320px;
+}
+.rect{
+    position: relative;
+    bottom: 0px;
+    top: 500px;
+}
+.gift{
+    width: 550px;
+    height: 550px;
+    object-fit: contain;
+    position: relative;
+    bottom: 0px;
+    top: -20px;
+    left: -150px;
+    z-index: 200;
+}
+.discount-sticker{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: -380px;
+    right: -160px;
+}
+
+/* Portfolio Section Styles */
+.portfolio-section{
+    width: 1320px;
+    margin: 0px auto 120px auto;
+}
+.portfolio-text h5{
+    font-family: Inter;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.portfolio-text h1{
+    margin-top: 16px;
+    margin-bottom: 22px;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 48px;
+}
+.portfolio-text p{
+    margin-top: 22px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    color: #070211;
 }
