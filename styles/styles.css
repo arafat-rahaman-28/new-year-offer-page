@@ -215,3 +215,69 @@ body{
     border: none;
     margin-top: 48px;
 }
+
+/* Comming Soon Section */
+.comming-soon-section{
+    margin: 0px auto 120px auto;
+    width: 1320px;
+    height: 463px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comming-soon-masseg{
+    width: 393px;
+}
+.comming-soon-masseg h5{
+    font-family: Inter;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.comming-soon-masseg h3{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+.comming-soon-masseg p{
+    font-family: Inter;
+    font-size: 20px;
+    color: #070211;
+}
+
+.rounded-image img{
+    width: 263px;
+    height: 263px;
+    border-radius: 300px;
+    border: 20px solid #FF0000;
+    padding: 49.08px;
+}
+
+.new-year-massage{
+    width: 276px;
+}
+.new-year-massage h3{
+    font-family: Inter;
+    font-size: 48px;
+    color: #FF0000;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 120px;
+}
+.new-year-massage p{
+    font-family: Inter;
+    font-size: 20px;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+.new-year-sticker{
+    height: 140px;
+    width: 140px;
+    margin-top: 0px;
+}
